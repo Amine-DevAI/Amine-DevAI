@@ -8,4 +8,4 @@
 
 🕵️‍♂️ Open to contract or freelance opportunities in AI/Deep Learning  
 
-📫 Reach me at: [mohamedamine.devtech@gmail.com] or connect via [LinkedIn](www.linkedin.com/in/mohamed-amine-mammar-el-hadj-715a41295)
+📫 Reach me at: [mohamedamine.devtech@gmail.com] or connect via (www.linkedin.com/in/mohamed-amine-mammar-el-hadj-715a41295)
