@@ -27,6 +27,35 @@
 
 ### 🌐 Beyond the Code
 - **Mindset:** Focused on understanding how things work under the hood, from low-level systems mechanics to algorithmic problem-solving.
+- **Interests:** Deep reinforcement learning, systems engineering, and hardware-level tinkering.<h1 align="center">Mohamed Amine Mammar El Hadj 👋</h1>
+<h3 align="center">Systems & Backend Developer | M.S. AI Student</h3>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Amine-DevAI&color=blueviolet&style=flat-square" alt="profile views" />
+</p>
+
+---
+
+### 💻 About Me
+- **Background:** B.S. in Computer Science (Computer Systems) — University of Blida 1
+- **Current Focus:** Pursuing an M.S. in Artificial Intelligence (Engineering of Smart Systems)
+- **Core Approach:** Building software from the metal up. Focused on technical documentation, systematic testing, data structures, and solid backend architecture rather than superficial boilerplate.
+
+---
+
+### 🛠️ Technical Competencies
+
+| Category | Capabilities & Tools |
+| :--- | :--- |
+| **Languages** | C++, Python, Dart, SQL |
+| **Systems & Low-Level** | Socket Programming, Protocol Integration, Linux Environment, Performance Optimization |
+| **Backend & Infrastructure** | PostgreSQL, Relational Database Design, Authentication Layers, Validation Systems |
+| **Methodology** | Documentation-Driven Development, Modular Architecture, Rigorous Testing |
+
+---
+
+### 🌐 Beyond the Code
+- **Mindset:** Focused on understanding how things work under the hood, from low-level systems mechanics to algorithmic problem-solving.
 - **Interests:** Deep reinforcement learning, systems engineering, and hardware-level tinkering.
 
 ---
