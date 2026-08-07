@@ -20,7 +20,6 @@ Systems and backend developer with a focus on low-level architecture, protocol-l
 - 🎓 **B.S. in Computer Science** (Computer Systems) — University of Blida 1
 - 🎓 Currently pursuing an **M.S. in Artificial Intelligence** (Engineering of Smart Systems)
 - 🏭 Designed and built an **industrial pharmaceutical waste-tracking system** for a multinational pharma manufacturer's local plant, ALCOA+ compliant, end to end, solo
-- 🔍 All hardware protocol reverse-engineering in this portfolio — the industrial scale's serial protocol and a medical device's BLE protocol — was done independently, with no team and no supervision
 - 🔧 Independent work in hardware protocol reverse-engineering — [details below](#-independent-work--ble-protocol-reverse-engineering)
 
 ---
@@ -56,20 +55,20 @@ Scale (RS232/USB) → C++ acquisition bridge → C++ backend engine (FFI) → Fl
 | Repo | What it does |
 |---|---|
 | 🎓 [`Graduation-Internship`](https://github.com/Amine-DevAI/Graduation-Internship) | The thesis + defense behind the whole project — ALCOA+ compliant pharma waste digitalization |
-| ⚖️ [`industrial-scale-data-acquisition-bridge`](https://github.com/Amine-DevAI/industrial-scale-data-acquisition-bridge) | Cross-platform C++ library reading industrial scales — serial protocol reverse-engineered solo from raw captures, hand-rolled I/O for Windows *and* Linux; the decoded protocol file is withheld as IP |
+| ⚖️ [`industrial-scale-data-acquisition-bridge`](https://github.com/Amine-DevAI/industrial-scale-data-acquisition-bridge) | Cross-platform C++ library reading industrial scales, hand-rolled serial I/O for Windows *and* Linux |
 | 🧠 [`ffi-signal-core`](https://github.com/Amine-DevAI/ffi-signal-core) | The native C++ engine — auth, RBAC, audit trail, 5 concurrent WebSockets, opaque-handle FFI |
 | 📱 [`waste-tracking-flutter-client`](https://github.com/Amine-DevAI/waste-tracking-flutter-client) | The Flutter desktop client — 13 FFI binding modules, zero REST layer, direct native interop |
 | 🖥️ [`industrial-backend-gateway`](https://github.com/Amine-DevAI/industrial-backend-gateway) | Sanitized, modular showcase of the C++20 backend gateway — API routing + OpenSSL crypto |
 
 ---
 
-### 🩺 Protocol Reverse Engineering — Case Study
+### 🩺 Independent Work — BLE Protocol Reverse Engineering
 
 **[`bw-ba1-ble-gatt-reverse-engineering`](https://github.com/Amine-DevAI/bw-ba1-ble-gatt-reverse-engineering)** — a fully reverse-engineered BLE GATT protocol and C++/BlueZ driver for a blood pressure monitor after its vendor discontinued the companion app and left the hardware undocumented.
 
 With no SDK and no vendor support available, I enumerated the device's GATT services directly, correlated raw notification traffic with physical device behavior, and reconstructed the protocol from scratch: the write sequence that triggers a measurement, the packet format for live cuff pressure during inflation, and the 14-byte frame encoding the final systolic/diastolic/pulse/arrhythmia result. I implemented the driver against BlueZ's D-Bus API with no third-party BLE wrapper, then ported the same protocol logic into a Flutter application.
 
-This is one of two protocols I've reverse-engineered from raw captures with no documentation available — the other being the industrial scale's serial protocol above. Undocumented byte offsets in the BLE result packet are explicitly marked unknown rather than guessed.
+This is a general skill I've applied more than once — see also the serial protocol reverse-engineering in `industrial-scale-data-acquisition-bridge` above. Undocumented byte offsets in the result packet are explicitly marked unknown rather than guessed.
 
 ---
 
