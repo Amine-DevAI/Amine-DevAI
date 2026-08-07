@@ -72,6 +72,18 @@ This is a general skill I've applied more than once — see also the serial prot
 
 ---
 
+### 📈 Activity
+
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=Amine-DevAI&theme=dark&hide_border=true&background=00000000" height="165"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Amine-DevAI&theme=react-dark&hide_border=true&bg_color=00000000" width="100%"/>
+</div>
+
+---
+
 <div align="center">
 
 **Open to opportunities in systems, backend, and embedded software.**
