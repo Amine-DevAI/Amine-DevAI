@@ -19,7 +19,7 @@ Systems and backend developer with a focus on low-level architecture, protocol-l
 
 - 🎓 **B.S. in Computer Science** (Computer Systems) — University of Blida 1
 - 🎓 Currently pursuing an **M.S. in Artificial Intelligence** (Engineering of Smart Systems)
-- 🏭 Designed and built an **industrial pharmaceutical waste-tracking system** for **Pfizer USP Alger**, ALCOA+ compliant, end to end, solo
+- 🏭 Designed and built an **industrial pharmaceutical waste-tracking system** for a multinational pharma manufacturer's local plant, ALCOA+ compliant, end to end, solo
 - 🔧 Independent work in hardware protocol reverse-engineering — [details below](#-independent-work--ble-protocol-reverse-engineering)
 
 ---
@@ -44,7 +44,7 @@ Systems and backend developer with a focus on low-level architecture, protocol-l
 
 ---
 
-### 🏗️ Featured System — Industrial Waste Tracking (Pfizer USP Alger)
+### 🏗️ Featured System — Industrial Pharmaceutical Waste Tracking
 
 One connected system, built solo, from the scale on the factory floor to the screen a technician taps:
 
