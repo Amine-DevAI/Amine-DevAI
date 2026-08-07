@@ -15,12 +15,12 @@
 
 ### 👋 Mohamed Amine Mammar El Hadj
 
-I got here the way most systems people do: by taking things apart until I understood them. A dead scale protocol, an orphaned medical device, a monolith that needed to become something reviewable — same instinct every time. Read the bytes. Find the pattern. Build the clean version.
+Systems and backend developer with a focus on low-level architecture, protocol-level work, and infrastructure that has to hold up under real constraints — hardware, compliance, and concurrency, not just a database and a REST endpoint.
 
 - 🎓 **B.S. in Computer Science** (Computer Systems) — University of Blida 1
 - 🎓 Currently pursuing an **M.S. in Artificial Intelligence** (Engineering of Smart Systems)
-- 🏭 Built and shipped an **industrial pharmaceutical waste-tracking system** for **Pfizer USP Alger**, ALCOA+ compliant, end to end — solo
-- 🔧 Off the clock, I reverse-engineer hardware protocols that companies have abandoned — [see below](#-the-project-im-proudest-of)
+- 🏭 Designed and built an **industrial pharmaceutical waste-tracking system** for **Pfizer USP Alger**, ALCOA+ compliant, end to end, solo
+- 🔧 Independent work in hardware protocol reverse-engineering — [details below](#-independent-work--ble-protocol-reverse-engineering)
 
 ---
 
@@ -62,26 +62,13 @@ Scale (RS232/USB) → C++ acquisition bridge → C++ backend engine (FFI) → Fl
 
 ---
 
-### 🩺 The project I'm proudest of
+### 🩺 Independent Work — BLE Protocol Reverse Engineering
 
-In April, my dad's blood pressure monitor stopped working — not the hardware, the app. The vendor discontinued it, pulled it from the stores, and without it the device was just an expensive brick.
+**[`bw-ba1-ble-gatt-reverse-engineering`](https://github.com/Amine-DevAI/bw-ba1-ble-gatt-reverse-engineering)** — a fully reverse-engineered BLE GATT protocol and C++/BlueZ driver for a blood pressure monitor after its vendor discontinued the companion app and left the hardware undocumented.
 
-I told him to give it to me first.
+With no SDK and no vendor support available, I enumerated the device's GATT services directly, correlated raw notification traffic with physical device behavior, and reconstructed the protocol from scratch: the write sequence that triggers a measurement, the packet format for live cuff pressure during inflation, and the 14-byte frame encoding the final systolic/diastolic/pulse/arrhythmia result. I implemented the driver against BlueZ's D-Bus API with no third-party BLE wrapper, then ported the same protocol logic into a Flutter application.
 
-No SDK, no docs, no vendor support — just a device speaking Bluetooth Low Energy to nobody. I opened a BLE scanner, read and wrote raw bytes until patterns emerged, and reconstructed the entire protocol: how to trigger a measurement, how the cuff streams live pressure, how the final reading is packed into 14 bytes. Then I ported it into a small Flutter app so he could use it like any other health app.
-
-**[→ `bw-ba1-ble-gatt-reverse-engineering`](https://github.com/Amine-DevAI/bw-ba1-ble-gatt-reverse-engineering)**
-
-*If you've got a medical or health device orphaned by a dead app, I mean it when I say — open an issue. I'll help if I can.*
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Amine-DevAI&show_icons=true&theme=dark&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amine-DevAI&layout=compact&theme=dark&hide_border=true" height="165"/>
-</div>
+This is a general skill I've applied more than once — see also the serial protocol reverse-engineering in `industrial-scale-data-acquisition-bridge` above. Undocumented byte offsets in the result packet are explicitly marked unknown rather than guessed.
 
 ---
 
