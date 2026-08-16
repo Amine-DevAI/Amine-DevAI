@@ -17,7 +17,7 @@
 
 Engineer who works across the stack — serial protocols and raw sockets up through backend services and distributed systems. I build the correct version first, measure it under real load, and fix what the numbers actually show instead of guessing.
 
--🎓 B.S. Computer Science (Computer Systems) — University of Blida 1, top 10% of class
+- 🎓 B.S. Computer Science (Computer Systems) — University of Blida 1, top 10% of class
 - 🎓 Currently doing an M.S. in AI (Engineering of Smart Systems)
 - 🏭 Built an industrial pharmaceutical waste-tracking system for a local pharma plant, solo, end to end
 - ⚙️ Building and benchmarking Go backend services — queues, async workers, load testing
