@@ -68,7 +68,6 @@ Scale (RS232/USB) → C++ acquisition bridge → C++ backend engine (FFI) → Fl
 
 | Repo | What it does |
 |---|---|
-| 🎓 [`Graduation-Internship`](https://github.com/Amine-DevAI/Graduation-Internship) | The thesis + defense behind the whole project — ALCOA+ compliant pharma waste digitalization |
 | ⚖️ [`industrial-scale-data-acquisition-bridge`](https://github.com/Amine-DevAI/industrial-scale-data-acquisition-bridge) | Cross-platform C++ library reading industrial scales, hand-rolled serial I/O for Windows *and* Linux |
 | 🧠 [`ffi-signal-core`](https://github.com/Amine-DevAI/ffi-signal-core) | The native C++ engine — auth, RBAC, audit trail, 5 concurrent WebSockets, opaque-handle FFI |
 | 📱 [`waste-tracking-flutter-client`](https://github.com/Amine-DevAI/waste-tracking-flutter-client) | The Flutter desktop client — 13 FFI binding modules, zero REST layer, direct native interop |
