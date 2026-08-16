@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=4FACFE&center=true&vCenter=true&width=600&lines=Systems+%26+Backend+Developer;M.S.+AI+Student+%E2%80%94+Engineering+of+Smart+Systems;I+build+software+from+the+metal+up." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=4FACFE&center=true&vCenter=true&width=700&lines=Systems+%26+Backend+Engineer;Go+%2B+C%2B%2B+%E2%80%94+Hardware+to+Distributed+Systems;I+build%2C+measure%2C+and+prove+it+with+real+numbers." alt="Typing SVG" />
 
 </div>
 
@@ -15,11 +15,14 @@
 
 ### 👋 Mohamed Amine Mammar El Hadj
 
-Systems and backend developer with a focus on low-level architecture, protocol-level work, and infrastructure that has to hold up under real constraints — hardware, compliance, and concurrency, not just a database and a REST endpoint.
+Engineer who works across the stack — from raw sockets and serial protocols up to backend services and distributed systems architecture. What ties it together isn't one language or one layer: it's an approach — build the correct version first, measure it under real conditions, and prove any claim with data instead of assumptions. That approach has shipped a real industrial system end-to-end, reverse-engineered undocumented hardware protocols, and benchmarked backend architecture decisions with load-tested numbers.
 
-- 🎓 **B.S. in Computer Science** (Computer Systems) — University of Blida 1
+I fit wherever the problem is: hardware-adjacent systems work, backend services, infrastructure, or the parts in between that most people avoid because they require understanding more than one layer at once.
+
+- 🎓 **B.S. in Computer Science** (Computer Systems) — University of Blida 1, top of class
 - 🎓 Currently pursuing an **M.S. in Artificial Intelligence** (Engineering of Smart Systems)
-- 🏭 Designed and built an **industrial pharmaceutical waste-tracking system** for a multinational pharma manufacturer's local plant, ALCOA+ compliant, end to end, solo
+- 🏭 Designed and built an **industrial pharmaceutical waste-tracking system** for a multinational pharma manufacturer's local plant — ALCOA+ compliant, end to end, solo
+- ⚙️ Design, build, and benchmark **Go backend services** — queues, async workers, load testing, distributed-systems tradeoffs
 - 🔧 Independent work in hardware protocol reverse-engineering — [details below](#-independent-work--ble-protocol-reverse-engineering)
 
 ---
@@ -27,20 +30,31 @@ Systems and backend developer with a focus on low-level architecture, protocol-l
 ### 🛠️ Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=cpp,python,dart,flutter,postgres,linux,cmake,git" />
+<img src="https://skillicons.dev/icons?i=cpp,go,python,dart,flutter,postgres,redis,docker,linux,cmake,git" />
 </div>
 
 <div align="center">
 
 | Area | Tools |
 |---|---|
-| **Languages** | C++ (17/20), Python, Dart, SQL |
+| **Languages** | Go, C++ (17/20), Python, Dart, SQL |
+| **Backend & Distributed Systems** | Go (`net/http` stdlib), REST APIs, WebSockets, Redis (queues/pub-sub), ClickHouse, PostgreSQL, load testing & benchmarking |
 | **Systems & Low-Level** | Socket programming, serial I/O (RS232/USB), BLE/GATT, FFI, protocol reverse-engineering |
-| **Backend** | PostgreSQL, REST APIs, WebSockets, OpenSSL, RBAC/auth design |
+| **Infra & Tooling** | Docker, Git, CMake, Linux |
 | **Cross-platform** | Windows (Win32 overlapped I/O) · Linux (termios, BlueZ/D-Bus) · Flutter desktop |
-| **Practice** | Documentation-driven development, modular architecture, audit-first data design |
+| **Practice** | Documentation-driven development, modular architecture, audit-first data design, measure-then-optimize |
 
 </div>
+
+---
+
+### ⚙️ Backend & Distributed Systems — Go
+
+Same approach as everything below, pointed at backend architecture: build the naive version correctly, measure it under real load, fix it, and prove the fix with numbers instead of a diagram.
+
+| Repo | What it does |
+|---|---|
+| 📊 [`sync-vs-async-booking-engine`](https://github.com/Amine-DevAI/sync-vs-async-booking-engine) | A booking API built 3 ways — sync baseline → blocking side-effects → Redis-queued async — benchmarked with a custom C++ load tester against real running code. **9x throughput recovery**, p99 latency cut 66%, and a real production bug (100% failure rate in the naive version) traced to its root cause instead of hand-waved away. |
 
 ---
 
@@ -86,7 +100,7 @@ This is a general skill I've applied more than once — see also the serial prot
 
 <div align="center">
 
-**Open to opportunities in systems, backend, and embedded software.**
+**Open to opportunities in backend, systems, and infrastructure engineering — freelance or full-time.**
 Reach out — [LinkedIn](https://www.linkedin.com/in/mohamed-amine-mammar-el-hadj-715a41295) · open an issue on any repo above
 
 </div>
