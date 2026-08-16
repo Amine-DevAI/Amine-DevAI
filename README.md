@@ -15,15 +15,12 @@
 
 ### 👋 Mohamed Amine Mammar El Hadj
 
-Engineer who works across the stack — from raw sockets and serial protocols up to backend services and distributed systems architecture. What ties it together isn't one language or one layer: it's an approach — build the correct version first, measure it under real conditions, and prove any claim with data instead of assumptions. That approach has shipped a real industrial system end-to-end, reverse-engineered undocumented hardware protocols, and benchmarked backend architecture decisions with load-tested numbers.
+Engineer who works across the stack — serial protocols and raw sockets up through backend services and distributed systems. I build the correct version first, measure it under real load, and fix what the numbers actually show instead of guessing.
 
-I fit wherever the problem is: hardware-adjacent systems work, backend services, infrastructure, or the parts in between that most people avoid because they require understanding more than one layer at once.
-
-- 🎓 **B.S. in Computer Science** (Computer Systems) — University of Blida 1, top of class
-- 🎓 Currently pursuing an **M.S. in Artificial Intelligence** (Engineering of Smart Systems)
-- 🏭 Designed and built an **industrial pharmaceutical waste-tracking system** for a multinational pharma manufacturer's local plant — ALCOA+ compliant, end to end, solo
-- ⚙️ Design, build, and benchmark **Go backend services** — queues, async workers, load testing, distributed-systems tradeoffs
-- 🔧 Independent work in hardware protocol reverse-engineering — [details below](#-independent-work--ble-protocol-reverse-engineering)
+- 🎓 B.S. Computer Science (Computer Systems) — University of Blida 1, top of class
+- 🎓 Currently doing an M.S. in AI (Engineering of Smart Systems)
+- 🏭 Built an industrial pharmaceutical waste-tracking system for a local pharma plant, solo, end to end
+- ⚙️ Building and benchmarking Go backend services — queues, async workers, load testing
 
 ---
 
